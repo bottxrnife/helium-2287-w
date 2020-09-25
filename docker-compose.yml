@@ -26,6 +26,8 @@ services:
       io.balena.features.dbus: '1'
     cap_add:
       - NET_ADMIN
+    volumes:
+      - 'wifi:/var'
     environment:
       DBUS_SYSTEM_BUS_ADDRESS: "unix:path=/host/run/dbus/system_bus_socket"
       PORTAL_SSID: "Hotspot Connect"
@@ -37,3 +39,4 @@ services:
 volumes:
   miner-data:
   miner-log:
+  wifi:
