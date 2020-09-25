@@ -11,7 +11,7 @@ sleep 10
 # Choose a condition for running WiFi Connect according to your use case:
 
 # 1. Is there a default gateway?
-ip route | grep default
+# ip route | grep default
 
 # 2. Is there Internet connectivity?
 nmcli -t g | grep full
