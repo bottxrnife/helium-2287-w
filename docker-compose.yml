@@ -1,0 +1,37 @@
+version: "2.1"
+
+services:
+
+  loragtwpktfwd:
+    restart: always
+    image: pastagringo/lorapacketforwarder_sx1302_us:latest
+    privileged: true
+
+  helium-miner:
+    restart: always
+    image: quay.io/team-helium/miner:miner-arm64_2020.09.21.1_GA
+    ports:
+      - "44158:44158/tcp"
+      - "1680:1680/udp"
+    volumes:
+      - 'miner-data:/var/data'
+      - 'miner-log:/var/log/miner'
+    environment:
+      - 'REGION_OVERRIDE=US915'
+
+  wifi-connect:
+    build: ./wifi-connect
+    network_mode: "host"
+    labels:
+      io.balena.features.dbus: '1'
+    cap_add:
+      - NET_ADMIN
+    environment:
+      DBUS_SYSTEM_BUS_ADDRESS: "unix:path=/host/run/dbus/system_bus_socket"
+      PORTAL_SSID: "Helium Hotspot"
+      PORTAL_DHCP_RANGE: "192.168.1.101,192.168.1.155"
+      PORTAL_GATEWAY: "192.168.1.1"
+
+volumes:
+  miner-data:
+  miner-log:
