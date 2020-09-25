@@ -34,7 +34,7 @@ services:
       PORTAL_PASSPHRASE: "12345678"
       PORTAL_DHCP_RANGE: "192.168.1.101,192.168.1.131"
       PORTAL_GATEWAY: "192.168.1.1"
-      ACTIVITY_TIMEOUT: "360"
+      ACTIVITY_TIMEOUT: "330"
 
 volumes:
   miner-data:
