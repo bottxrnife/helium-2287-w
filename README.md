@@ -6,6 +6,12 @@
 
 Balena deployment with easy connection to wifi. Supports android, ios, and laptops with wifi to configure it. In beta testing.
 
+After you deploy this and wrote the image onto the pi, wire the pi to ethernet (so it can download everything first) and power it on, wait around 10 minutes for everything needed to install. After you're able to see the status as "online" and everything is running (this is also a good time to backup your swarm_key), you may now unplug the pi and ethernet. After plugging it back in, wait around 3 minutes.
+You should see a new wifi network named "Hotspot-Connect." The password to connect to it is "12345678"
+A captive portal should come up prompting you to connect to a wifi network, if not, open a web browser and type in the ip address for the portal: "192.168.1.1"
+Note that after 5 minutes, the hotspot-connect wifi network automatically turns off, and the only way to see it again is to reboot the PI
+
+
 HOW TO BACKUP SWARM KEY:
 1. Open an SSH session to the "host-os"
 2. Type this command and keep note of the (YOUR INSTANCE)_miner-data information: 
