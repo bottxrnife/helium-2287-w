@@ -1,6 +1,6 @@
 # helium-2287 US W
 
-[![](https://cdn.discordapp.com/attachments/780559496975482893/814541514348691547/logo.png)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/bottxrnife/helium-2287-w)
+[![](hhttps://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/bottxrnife/helium-2287-w)
 < Login to your BalenaCloud account and click this button to deploy! To update the miner, click this button and choose "deploy to existing application" (automated miner updates coming soon ;))
 
 
