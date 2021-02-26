@@ -1,5 +1,7 @@
 # Helium Hotspot US version SX1302 with WiFi-Connect
 
+[![](https://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/bottxrnife/helium-2287-w)
+
 This project deploys a Helium Hotspot with US LoRa configuration. Run the Helium EU LoRa version (SX1301) from [this project](https://github.com/PastaGringo/balenaos-helium-gtw)
 
 
