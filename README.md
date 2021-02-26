@@ -11,10 +11,7 @@ You will need a [balenaCloud free account](https://dashboard.balena-cloud.com/) 
 ## Deploy the code
 
 [![](https://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/bottxrnife/helium-2287-w)
-<<<<<<< master
-=======
 < Login to your BalenaCloud account and click this button to deploy! To update the miner, click this button and choose "deploy to existing application" (automated miner updates coming soon ;))
->>>>>>> master
 
 Login to your BalenaCloud account and click this button to deploy! 
 
@@ -42,7 +39,7 @@ To update the Helium miner, click this button and choose "deploy to existing app
 
 ## How to restore the swarm key
 
-<<<<<<< master
+
 =======
 Balena deployment with easy connection to wifi or ethernet. Supports android, ios, and laptops with wifi to configure it. In beta testing.
 
@@ -62,7 +59,6 @@ HOW TO BACKUP SWARM KEY:
 
 
 HOW TO RESTORE SWARM KEY:
->>>>>>> master
 1. Open an SSH session to the "host-os"
 2. Type this command and keep note of the (YOUR INSTANCE)_miner-data information: 
       ls /var/lib/docker/volumes
