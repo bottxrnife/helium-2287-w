@@ -1,5 +1,5 @@
-name: "Helium Hotspot (US version)"
-description: "Deploys a Helium Hotspot (North America version) running with balena on a Raspberry Pi 3/4 (64 bits) with a RAK2287 LoRa concentrators."
+name: "Helium (US SX1302)"
+description: "Deploys a Helium Hotspot (North America version) running with balena on a Raspberry Pi 3/4 (64 bits) with a RAK2287 (SX1302) LoRa concentrators."
 type: "sw.application"
 assets:
   repository:
