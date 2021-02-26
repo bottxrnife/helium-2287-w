@@ -10,7 +10,7 @@ You will need a [balenaCloud free account](https://dashboard.balena-cloud.com/) 
 
 ## Deploy the code
 
-[![](https://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/bottxrnife/helium-2287-w)
+
 
 Login to your BalenaCloud account and click this button to deploy! 
 
@@ -37,6 +37,7 @@ To update the Helium miner, click this button and choose "deploy to existing app
 
 
 ## How to restore the swarm key
+
 
 1. Open an SSH session to the "host-os"
 2. Type this command and keep note of the (YOUR INSTANCE)_miner-data information: 

@@ -1,0 +1,17 @@
+name: "Helium (US SX1302)"
+description: "Deploys a Helium Hotspot (North America version) running with balena on a Raspberry Pi 3/4 (64 bits) with a RAK2287 (SX1302) LoRa concentrators."
+type: "sw.application"
+assets:
+  repository:
+    type: "blob.asset"
+    data:
+      url: "https://github.com/bottxrnife/helium-2287-w"
+  logo:
+    type: "blob.asset"
+    data:
+      url: "https://raw.githubusercontent.com/bottxrnife/helium-2287-w/master/logo.png"
+data:
+  defaultDeviceType: "raspberrypi4-64"
+  supportedDeviceTypes:
+    - "raspberrypi3-64"
+    - "raspberrypi4-64"
