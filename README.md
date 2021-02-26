@@ -11,7 +11,7 @@ You will need a [balenaCloud free account](https://dashboard.balena-cloud.com/) 
 
 
 ## Deploy the code
-This project deploys a Helium Hotspot with US LoRa configuration. Run the Helium EU LoRa version (SX1301) from [this project](https://github.com/PastaGringo/balenaos-helium-gtw)
+This project deploys a Helium Hotspot with US LoRa configuration.
 Login to your BalenaCloud account and click this button to deploy! 
 After you deploy this and wrote the image onto the pi, wire the pi to ethernet (so it can download everything first) and power it on, wait around 10 minutes for everything needed to install. After you're able to see the status as "online" and everything is running (this is also a good time to backup your swarm_key), you may now unplug the pi and ethernet. After plugging it back in, wait around 3 minutes.
 You should see a new wifi network named "Hotspot-Connect." The password to connect to it is "12345678"
