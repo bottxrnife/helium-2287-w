@@ -32,8 +32,8 @@ services:
       DBUS_SYSTEM_BUS_ADDRESS: "unix:path=/host/run/dbus/system_bus_socket"
       PORTAL_SSID: "Hotspot Connect"
       PORTAL_PASSPHRASE: "12345678"
-      PORTAL_DHCP_RANGE: "192.168.1.101,192.168.1.131"
-      PORTAL_GATEWAY: "192.168.1.1"
+      PORTAL_DHCP_RANGE: "192.168.12.101,192.168.12.131"
+      PORTAL_GATEWAY: "192.168.12.1"
       ACTIVITY_TIMEOUT: "330"
 
 volumes:
